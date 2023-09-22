@@ -1,4 +1,4 @@
-import { fetchApi } from "./fetch.js";
+import { fetchApi } from "./fetch.js";              //importa las funciones fetchApi y cargarSeries() de fetch.js y series.js respectivamente
 import { cargarSeries } from "./series.js";
 
 // Arreglos vacios que reciben los datos que queramos extraer de la api
@@ -35,7 +35,6 @@ async function cargarPeliculas() {
     //cantidad de graficos disponibles para mostrar
     let paginaFinal = respuesta.total_pages;
  
-
     const ctx = document.getElementById('myChart').getContext('2d');
     const myChart = new Chart(ctx, {
         type: 'bar',                //grafico de barras
@@ -72,15 +71,14 @@ async function cargarPeliculas() {
 
     });
     
-    //botones
 
-    
+    // Botones
     const btnInicial = document.getElementById('btnInicial');
     const btnAnterior = document.getElementById('btnAnterior');
     const btnSiguiente = document.getElementById('btnSiguiente');
     const btnFinal = document.getElementById('btnFinal');
 
-    //Grafica el arreglo de la página 1
+    //Grafica el arreglo de la primera página
     btnInicial.addEventListener('click', () => {
         myChart.clear();
         myChart.destroy();
@@ -121,8 +119,3 @@ async function cargarPeliculas() {
 //Llama a la funcion para mostrar ambos graficos (peliculas y series). cargarSeries() es un impor de series.js
 cargarPeliculas();
 cargarSeries();
-
-
-
-
-

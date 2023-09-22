@@ -1,9 +1,10 @@
-
+/* contenedor de los gráficos (canvas) */
 .contenedor {
 	width: 100%;
 	margin: 40px 0px;
 }
 
+/* estilos de los contenedores de botones */
 .paginacion {
 	bottom: 0;
 	background: #fff;
@@ -14,6 +15,7 @@
 	margin-bottom: 50px;
 }
 
+/* estilos de los botones */
 .paginacion button {
 	cursor: pointer;
 	border: none;
@@ -29,20 +31,24 @@
 	
 }
 
+/* los botones cambian de color al pasar el punteros por encima */
 .paginacion button:hover {
 	background: #008000;
 }
 
+/* ordena los contenedores de imágenes */
 .imagenes {
 	display: flex;
 
 }
 
+/* estilos de las imagenes en si */
 .imagenes div img {
 	width: 100%;
 	max-height: 300px ;
 }
 
+/* estilos del canvas */
 canvas {
 	max-height: 450px;
 }
