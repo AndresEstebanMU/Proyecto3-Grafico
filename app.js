@@ -1,12 +1,14 @@
 import { fetchApi } from "./fetch.js";
 import { cargarSeries } from "./series.js";
 
+// Arreglos vacios que reciben los datos que queramos extraer de la api
 let peliculasTop = [];
 let ranking = [];
 let pagina = 1;
 
+// Función asincrona que espera recibir todos los datos de la api para comenzar a llenar los arreglos vacios con info
 async function cargarPeliculas() {
-
+    //guarda en respuesta los datos entregados por la api, el import del archivo fetch permite verlo como objeto inmediatamente
     const respuesta = await fetchApi(`https://api.themoviedb.org/3/movie/now_playing?api_key=5e0977ca2aac82b8cead0042eb0d634f&page=${pagina}`);
     peliculasTop = respuesta.results.map((pelicula) => pelicula.title);
     ranking = respuesta.results.map((pelicula) => pelicula.vote_average);
