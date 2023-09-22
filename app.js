@@ -71,7 +71,7 @@ async function cargarPeliculas() {
 
     });
     
-
+    
     // Botones
     const btnInicial = document.getElementById('btnInicial');
     const btnAnterior = document.getElementById('btnAnterior');
