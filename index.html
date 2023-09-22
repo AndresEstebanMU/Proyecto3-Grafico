@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="./styles.css">
+    <title>Peliculas y Series en Cartelera</title>
+</head>
+
+<body>
+    <div>
+        <!-- Contenedor del gráfico de peliculas en cartelera -->
+        <div class="contenedor">
+            <canvas id="myChart"></canvas>
+        </div>
+        <!-- Contenedor de las imagenes entregadas por la api -->
+        <div class="imagenes" id="imagenes">
+
+        </div>
+        <!-- Botones para mostrar mas datos -->
+        <div class="paginacion">
+            <button id="btnInicial">Pág.1</button>
+            <button id="btnAnterior">Anterior</button>
+            <button id="btnSiguiente">Siguiente</button>
+            <button id="btnFinal">Pag. Final</button>
+        </div>
+    </div>
+    <br/>
+    <hr/>
+    <br/>
+    <div>
+        <!-- Contenedor del gráfico de series al aire en la actualidad-->
+        <div class="contenedor">
+            <canvas id="myChart2"></canvas>
+        </div>
+        <!-- Imagenes de series entregadas por la api -->
+        <div class="imagenes" id="imagenes2">
+
+        </div>
+        <!-- Botones para manejar los datos de series -->
+        <div class="paginacion">
+            <button id="btnInicial2">Pág.1</button>
+            <button id="btnAnterior2">Anterior</button>
+            <button id="btnSiguiente2">Siguiente</button>
+            <button id="btnFinal2">Pag. Final</button>
+        </div>
+    </div>
+
+    <!-- script para graficar en chartjs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./app.js" type="module"></script>
+</body>
+
+</html>

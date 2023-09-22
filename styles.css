@@ -1,0 +1,47 @@
+
+.contenedor {
+	width: 100%;
+	margin: 40px 0px;
+}
+
+.paginacion {
+	bottom: 0;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	padding: 5px;
+	margin-bottom: 50px;
+}
+
+.paginacion button {
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50px;
+	width: 100px;
+	background:#800080;
+	color: #fff;
+	border-radius: 100px;
+	
+}
+
+.paginacion button:hover {
+	background: #008000;
+}
+
+.imagenes {
+	display: flex;
+
+}
+
+.imagenes div img {
+	width: 100%;
+}
+
+canvas {
+	max-height: 450px;
+}
