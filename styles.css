@@ -52,3 +52,11 @@
 canvas {
 	max-height: 450px;
 }
+
+footer {
+	text-align: center;
+}
+
+footer span img {
+	max-height: 20px;
+}
