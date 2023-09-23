@@ -4,6 +4,17 @@
 
 Este es un pequeño proyecto de una aplicación que muestra películas y series utilizando la API de The Movie Database (TMDb). Puedes cargar películas en cartelera y series que se emiten actualmente.
 
+## **ÍNDICE**
+
+* [Tecnologías Utilizadas](tecnologías-utilizadas)
+* [API Utilizada](api-utilizada)
+* [Requisitos](requisitos)
+* [Cómo Usar](cómo-usar)
+* [Página](página)
+* [Créditos](créditos)
+* [Contacto](contacto)
+* [Deploy](deploy)
+
 ## Tecnologías Utilizadas
 
 - HTML
