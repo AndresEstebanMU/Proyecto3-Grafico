@@ -1,3 +1,4 @@
+![Banner](./asssets/banner.png)
 # Proyecto 3 Dashboard
 # Aplicación de Películas y Series
 
