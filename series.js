@@ -39,7 +39,7 @@ export async function cargarSeries() {
         data: {
             labels: seriesTop,          //arreglo con nombres de series para el eje x
             datasets: [{
-                label: 'Promedio de puntuación dada por usuarios a Series Actuales (de 1 a 10)',        //Titulo del gráfico
+                label: 'Promedio de puntuación dada por usuarios a Series al aire Actualmente (de 1 a 10)',        //Titulo del gráfico
                 data: ranking2,         //arreglo con promedios de puntuación para el eje y
                 backgroundColor: 'red',             //color de la barras
                 borderColor: 'red',
