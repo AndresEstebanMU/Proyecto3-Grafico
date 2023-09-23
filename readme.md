@@ -4,6 +4,22 @@
 
 Este es un pequeño proyecto de una aplicación que muestra películas y series utilizando la API de The Movie Database (TMDb). Puedes cargar películas en cartelera y series que se emiten actualmente.
 
+## Tecnologías Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+- Chart.js para la visualización de datos
+
+## API Utilizada
+
+- [The Movie Database (TMDb)](https://www.themoviedb.org/documentation/api)
+
+## Requisitos
+
+- Conexión a Internet para cargar datos desde la API de TMDb.
+
+
 ## Cómo Usar
 
 1. Clona o descarga este repositorio en tu computador.
@@ -20,21 +36,11 @@ Este es un pequeño proyecto de una aplicación que muestra películas y series 
 
 7. El gráfico muestra el promedio de las puntuaciones hechas por usuarios en la página TMDB a películas o series en cartelera.
 
-## Requisitos
+## Página
 
-- Conexión a Internet para cargar datos desde la API de TMDb.
-
-## Tecnologías Utilizadas
-
-- HTML
-- CSS
-- JavaScript
-- Chart.js para la visualización de datos
-
-## API Utilizada
-
-- [The Movie Database (TMDb)](https://www.themoviedb.org/documentation/api)
-
+Ejemplos de visualización del los gráficos:
+![Alt text](Pagina-grafico-peliculas.png)  
+![Alt text](Pagina-grafico-series.png)
 
 ## Créditos
 
