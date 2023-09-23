@@ -1,4 +1,4 @@
-![Banner](./asssets/banner.png)
+![Banner](./assets/banner.png)
 # Proyecto 3 Dashboard
 # Aplicación de Películas y Series
 
