@@ -50,8 +50,8 @@ Este es un pequeño proyecto de una aplicación que muestra películas y series 
 ## Página
 
 Ejemplos de visualización del los gráficos:
-![Alt text](Pagina-grafico-peliculas.png)  
-![Alt text](Pagina-grafico-series.png)
+![Alt text](./assets/Pagina-grafico-peliculas.png)  
+![Alt text](./assets/Pagina-grafico-series.png)
 
 ## Créditos
 
