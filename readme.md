@@ -44,7 +44,7 @@ Ejemplos de visualización del los gráficos:
 
 ## Créditos
 
-Este proyecto utiliza datos proporcionados por TMDb. Asegúrate de consultar su documentación y cumplir con sus términos de uso.![Banner](assests/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg)
+Este proyecto utiliza datos proporcionados por TMDb. Asegúrate de consultar su documentación y cumplir con sus términos de uso.![Banner](assets/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg)
 
 ---
 
